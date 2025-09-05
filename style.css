@@ -115,3 +115,9 @@ body {
   margin-bottom: 40px;
   color: rgba(0,0,0,0.7);
 }
+
+.titulo_2 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  color: rgba(0,0,0,0.2);
+}
