@@ -1,0 +1,117 @@
+
+body {
+  font-family: "Merriweather", serif;
+  line-height: 1.6; /* mejora la legibilidad de los párrafos */
+}
+
+/* Pantalla inicial */
+.pantalla-inicial {
+  background-image: url('imagenes/1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.titulo {
+  font-size: 4em;
+  text-align: center;
+}
+
+.img_testi {
+  width: 100%;       
+  max-width: 600px;  
+  display: block;
+  margin: 10px auto 30px auto; 
+  border-radius: 10px;
+}
+
+/* Sección Noticias */
+.memorias {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.memorias h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #2a7ae2;
+}
+
+/* Grid de textos 6 items */
+.grid-textos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+}
+
+/* Sección Memorias */
+.noticias {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.noticias h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #2a7ae2;
+}
+
+.grid-textos p {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+/* Filas con texto e imagen */
+.contenido-filas {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.fila.reverse {
+  flex-direction: row-reverse; /* invierte texto e imagen */
+}
+
+.texto {
+  flex: 1;
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.imagen {
+  flex: 1;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.poema_final {
+  font-size: 1.0em;
+  margin-bottom: 40px;
+  color: rgba(0,0,0,0.7);
+}
